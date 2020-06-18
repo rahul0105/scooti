@@ -1,0 +1,188 @@
+*{
+    margin:0;
+    padding:0;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+h1,h2{
+    font-family: 'Ubuntu', sans-serif;
+}
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1rem;
+}
+button {
+    color: #fff !important;
+}
+.container-fluid {
+    padding: 0 !important; 
+
+}
+.navbar {
+    padding: 0 10% 1.5rem !important;
+}
+.navbar-brand
+{
+    font-family: 'Ubuntu', sans-serif;
+}
+.nav-item {
+  padding: 0 19px;
+  margin-top: 20px;
+   font-family: 'Montserrat', sans-serif;
+  
+}
+.nav-link
+{
+    color: #b1b493 !important;
+}
+@media (min-width:1028px)
+{
+    span {
+        margin-left: 400px;
+        margin-top: 10px;
+    }
+}
+/* guide */
+.title {
+    height: 400px;
+    background-image: url(img/rsz_2scooter.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+  position: relative;
+ 
+}
+.overlay {
+    width: 100%;
+    height: 100%;
+     background-color: rgb(58, 49, 49);
+    opacity: 0.8;
+    position: relative;
+    justify-content: center;
+}
+.txt {
+    width:50%;
+    color: #fff;
+   padding: 7% 10%;
+   padding: absolute;
+   z-index: inherit 1;
+   line-height: 1.8;
+}
+
+@media (max-width:1028px)
+{
+    .txt{
+        width: 100%;
+        margin: 10px auto -20px;
+        line-height: 1.5;
+        text-align: center;
+        justify-content: center;
+    }
+    .d-button {
+       margin: 0 auto;
+    }
+}
+#guide {
+    padding: 7% 10%;
+    background-color: #fff;
+}
+
+p{
+    color: #8f8f8f;
+}
+.icon {
+   
+
+    color:#cf7500;
+}
+.icon:hover {
+    color:#f0a500;
+}
+/* features */
+@media (min-width:1028px)
+{
+.m{
+    width:300px;
+    height: 300px;
+   margin: auto;
+}
+.im {
+    width:300px;
+    height: 300px;
+    margin-left: 10px;
+}
+    .box {
+        padding: 5%;
+        text-align: center;
+        justify-content: start;
+    }
+}
+
+@media (max-width:1028px)
+{
+    .m{
+        width:200px;
+        height: 200px;
+        margin-left: 100px;
+        padding: 7% 3%;   
+    }
+    .im {
+        width:200px;
+        height: 200px;
+        margin-top: 100px;
+       margin-left: 39px;
+       
+    }
+    .first {
+        position: relative;
+      bottom: 280px;
+      right: 30px
+    }
+    .second {
+        position: relative;
+        top: 200px;
+        text-align: center;
+    }
+    .this {
+        text-align: center;
+        
+    }
+    .box {
+        text-align: center;
+    }
+    .r1 {
+        text-align:center;
+    }
+    .b1{
+        margin-bottom: 1.5rem;
+    }
+}
+.this {
+    padding: 7% 3%;
+}
+/* download */
+#download {
+    margin-top: 50px;
+    padding: 7% 15%;
+    height: 500px;
+    background-image: url(img/b.jpeg);
+    background-size: cover;
+    word-spacing: 1rem;
+}
+.d1 {
+    color: #fff;
+}
+.d2 {
+    margin-top: 30px;
+    text-align: center;
+}
+#footer {
+    background-color: black;
+    height: 100px;
+   text-align: center;
+}
+i {
+    padding: 2% 1%;
+    color: gold;
+}
